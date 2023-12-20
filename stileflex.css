@@ -1,0 +1,17 @@
+body {box-sizing:border-box;}
+section {
+    background-color: rgb(180,240,210);
+    border: 2px solid rgb(100 175 220);
+    }
+article {
+    font-size: large;
+    text-align: center;
+    background-color: rgb(255,204,204);
+    border: 2px solid rgb(255,102,102);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    }
+/*Dichiarazioni per flexbox layout*/
+#ricette-container {display: flex; flex-flow: row wrap;}
+.ricette-item {flex-grow: 1;}
